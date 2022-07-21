@@ -1,0 +1,17 @@
+// prettier-ignore
+{
+  "extends": "@tsconfig/react-native/tsconfig.json",     /* Recommended React Native TSConfig base */
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "baseUrl": "./src",
+    "paths": {
+      "@/*": ["./*"],
+      "@components/*": ["components/*"],
+      "@atoms/*": ["components/atoms/*"],
+      "@blocks/*": ["components/blocks/*"],
+      "@pages/*": ["components/pages/*"],
+      "@assets/*": ["assets/*"],
+      "@ducks/*": ["ducks/*"],
+    },
+  }
+}
